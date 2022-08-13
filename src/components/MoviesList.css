@@ -1,0 +1,28 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.box {
+  position: relative;
+  width: 400px;
+  border: none;
+  border-radius: 10px;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  overflow: hidden;
+}
+
+.box img {
+  width: 100%;
+  max-height: 450px;
+  background-size: cover;
+  object-fit: cover;
+}
+
+.movies-name {
+  padding: 6px 4px;
+  display: flex;
+  flex-direction: column;
+}
